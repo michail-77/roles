@@ -10,7 +10,7 @@ pipeline {
         stage('Sync Git') {
             steps {
                 dir('vector-role') {
-                    git branch: 'main', credentialsId: '9f1f1400-ed75-4579-bd4d-fb8849a0ceeb', url: 'git@github.com:danilabar/vector-role.git'
+                    git branch: 'main', credentialsId: '9f1f1400-ed75-4579-bd4d-fb8849a0ceeb', url: 'git@github.com:michail-77/vector-role.git'
                 }
             }
         }
